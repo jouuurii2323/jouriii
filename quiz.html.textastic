@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار النماذج الذرية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f4f4f9;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            font-size: 1.2em;
+        }
+        .choices {
+            margin: 10px 0;
+        }
+        .choices input {
+            margin-left: 10px;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h1>اختبار النماذج الذرية</h1>
+<p>عمل الطالبة: جوري أيمن الأحمدي</p>
+
+<form id="quizForm">
+    <div class="question">
+        <p>السؤال 1: ما تعريف الذرة في نموذج دالتون؟</p>
+        <div class="choices">
+            <label><input type="radio" name="q1" value="أ"> أ. جسيم موجب الشحنة يوجد في النواة</label><br>
+            <label><input type="radio" name="q1" value="ب"> ب. جسيم يدور حول النواة بسرعة عالية</label><br>
+            <label><input type="radio" name="q1" value="ج"> ج. جسيم صغير لا يمكن تجزئته يمثل الوحدة الأساسية للمادة</label><br>
+            <label><input type="radio" name="q1" value="د"> د. جسيم متعادل الشحنة</label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>السؤال 2: من هو أول من اقترح أن المادة تتكوّن من جسيمات صغيرة لا تُقسم؟</p>
+        <div class="choices">
+            <label><input type="radio" name="q2" value="أ"> أ. طومسون</label><br>
+            <label><input type="radio" name="q2" value="ب"> ب. ديموقريطوس</label><br>
+            <label><input type="radio" name="q2" value="ج"> ج. رذرفورد</label><br>
+            <label><input type="radio" name="q2" value="د"> د. بور</label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>السؤال 3: ما الذي اكتشفه طومسون في نموذجه الذري؟</p>
+        <div class="choices">
+            <label><input type="radio" name="q3" value="أ"> أ. البروتون</label><br>
+            <label><input type="radio" name="q3" value="ب"> ب. النواة</label><br>
+            <label><input type="radio" name="q3" value="ج"> ج. الإلكترون</label><br>
+            <label><input type="radio" name="q3" value="د"> د. النيوترون</label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>السؤال 4: ما الذي يميز نموذج رذرفورد الذري؟</p>
+        <div class="choices">
+            <label><input type="radio" name="q4" value="أ"> أ. الذرة صلبة لا تحتوي فراغات</label><br>
+            <label><input type="radio" name="q4" value="ب"> ب. الذرة تحتوي على نواة كثيفة موجبة الشحنة</label><br>
+            <label><input type="radio" name="q4" value="ج"> ج. الذرة متعادلة تحتوي على شحنة سالبة فقط</label><br>
+            <label><input type="radio" name="q4" value="د"> د. الإلكترونات ثابتة في مواقعها</label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>السؤال 5: ما العيب الرئيسي في نموذج رذرفورد؟</p>
+        <div class="choices">
+            <label><input type="radio" name="q5" value="أ"> أ. لم يوضح موقع البروتونات</label><br>
+            <label><input type="radio" name="q5" value="ب"> ب. لم يوضح استقرار الإلكترونات حول النواة</label><br>
+            <label><input type="radio" name="q5" value="ج"> ج. لم يفسر طيف الانبعاث</label><br>
+            <label><input type="radio" name="q5" value="د"> د. لم يكتشف النواة</label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>السؤال 6: ماذا يحدث عندما ينتقل الإلكترون من مستوى طاقة أعلى إلى مستوى طاقة أدنى؟</p>
+        <div class="choices">
+            <label><input type="radio" name="q6" value="أ"> أ. يمتص طاقة</label><br>
+            <label><input type="radio" name="q6" value="ب"> ب. يفقد طاقة</label><br>
+            <label><input type="radio" name="q6" value="ج"> ج. يشكل رابطة كيميائية</label><br>
+            <label><input type="radio" name="q6" value="د"> د. ينقسم إلى جسيمات أصغر</label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>السؤال 7: ما المقصود بمستوى الطاقة الرئيسي؟</p>
+        <div class="choices">
+            <label><input type="radio" name="q7" value="أ"> أ. مستوى يحتوي على بروتونات فقط</label><br>
+            <label><input type="radio" name="q7" value="ب"> ب. مستوى يضم الإلكترونات حول النواة</label><br>
+            <label><input type="radio" name="q7" value="ج"> ج. مستوى يشير إلى عدد النيوترونات</label><br>
+            <label><input type="radio" name="q7" value="د"> د. مستوى النواة نفسه</label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>السؤال 8: ما الذي يحدّد عدد الإلكترونات الممكن وجودها في مستوى الطاقة؟</p>
+        <div class="choices">
+            <label><input type="radio" name="q8" value="أ"> أ. عدد البروتونات</label><br>
+            <label><input type="radio" name="q8" value="ب"> ب. نوع العنصر</label><br>
+            <label><input type="radio" name="q8" value="ج"> ج. رقم مستوى الطاقة</label><br>
+            <label><input type="radio" name="q8" value="د"> د. كتلة النواة</label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>السؤال 9: أي مما يلي يمثل قاعدة باولي؟</p>
+        <div class="choices">
+            <label><input type="radio" name="q9" value="أ"> أ. لا يمكن لعنصرين أن يشتركا في نفس العدد الذري</label><br>
+            <label><input type="radio" name="q9" value="ب"> ب. لا يمكن أن يوجد إلكترونان في الذرة نفسها لهما نفس الأربعة أعداد كم</label><br>
+            <label><input type="radio" name="q9" value="ج"> ج. الإلكترونات تدور في مسارات دائرية</label><br>
+            <label><input type="radio" name="q9" value="د"> د. الذرات تتنافر في الظروف القياسية</label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>السؤال 10: عندما يقفز إلكترون إلى مستوى طاقة أعلى، فإنه:</p>
+        <div class="choices">
+            <label><input type="radio" name="q10" value="أ"> أ. يطلق طاقة</label><br>
+            <label><input type="radio" name="q10" value="ب"> ب. يمتص طاقة</label><br>
+            <label><input type="radio" name="q10" value="ج"> ج. يفقد شحنته</label><br>
+            <label><input type="radio" name="q10" value="د"> د. يتغير إلى بروتون</label>
+        </div>
+    </div>
+
+    <button type="button" onclick="checkAnswers()">إرسال الإجابات</button>
+</form>
+
+<div class="result" id="result"></div>
+
+<script>
+    function checkAnswers() {
+        let score = 0;
+        const answers = {
+            q1: "ج",
+            q2: "ب",
+            q3: "ج",
+            q4: "ب",
+            q5: "ب",
+            q6: "ب",
+            q7: "ب",
+            q8: "ج",
+            q9: "ب",
+            q10: "ب"
+        };
+
+        const form = document.getElementById('quizForm');
+        const result = document.getElementById('result');
+
+        for (let i = 1; i <= 10; i++) {
+            const answer = form.querySelector(`input[name="q${i}"]:checked`);
+            if (answer && answer.value === answers[`q${i}`]) {
+                score++;
+            }
+        }
+
+        result.textContent = `لقد أجبت على ${score} من 10 أسئلة بشكل صحيح!`;
+    }
+</script>
+
+</body>
+</html>
